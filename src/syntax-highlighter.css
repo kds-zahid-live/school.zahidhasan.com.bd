@@ -1,0 +1,91 @@
+/* syntax-highlighter.css */
+pre {
+    background-color: black !important;
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    overflow: auto;
+}
+
+
+
+/* Increase specificity */
+.my-code-container pre {
+    background-color: red ;
+    color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: gray;
+}
+
+.token.punctuation {
+    color: cyan;
+    font-weight: bold;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    /* color: #36a67c; */
+
+    color: yellow;
+}
+
+.token.boolean,
+.token.number {
+    color: skyblue;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: cyan;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+    color: tomato;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: skyblue;
+}
+
+.token.function,
+.token.class-name {
+    color: burlywood;
+}
+
+.token.regex,
+.token.important {
+    color: gray;
+}

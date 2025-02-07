@@ -1,0 +1,117 @@
+.code-box {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #686868 black; /* For Firefox */
+    background-color: black !important;
+}
+
+.code-box::-webkit-scrollbar {
+    width: 6px; /* Adjust width as needed */
+}
+
+.code-box::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 3px;
+}
+
+.code-box::-webkit-scrollbar-track {
+    background-color: #1e1e1e; /* Optional: Change track color */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* syntax-highlighter.css */
+pre {
+    background-color: #0D0D0D !important;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    overflow: auto;
+}
+
+
+
+/* Increase specificity */
+.my-code-container pre {
+    background-color: red ;
+    color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    overflow: auto;
+}
+
+
+
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: gray;
+}
+
+.token.punctuation {
+    color: white;
+}
+
+.token.property,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    /* color: #36a67c; */
+
+    color: #36A67C;
+}
+.token.tag{
+    color: white;
+}
+
+.token.boolean,
+.token.number {
+    color: skyblue;
+}
+
+.token.selector {
+    color: white;
+}
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #DF3079;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable {
+    color: tomato;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #36A67C;
+}
+
+.token.function,
+.token.class-name {
+    color: red;
+}
+
+.token.regex,
+.token.important {
+    color: gray;
+}
