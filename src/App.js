@@ -58,64 +58,58 @@ function HtmlPage() {
 function Introduction() {
   return (
     <div>
-            <h1>Introduction to HTML</h1>
+    <h1>Introduction to HTML</h1>
+    <p>
+      <strong>HTML (HyperText Markup Language)</strong> is the standard language used to create and design web pages. It serves as the foundation for structuring content on the World Wide Web. Whether you're building a simple personal webpage or a complex web application, understanding HTML is essential.
+    </p>
+    <h2>What is HTML?</h2>
+    <ul>
+      <li><strong>HTML</strong> stands for <strong>HyperText Markup Language</strong>.</li>
+      <li>It is not a programming language but a <strong>markup language</strong>, which means it is used to structure and format content on the web.</li>
+      <li>HTML uses <strong>tags</strong> to define elements such as headings, paragraphs, images, links, and more.</li>
+      <li>These tags are enclosed in angle brackets (<code>{"< >"}</code>), and most tags come in pairs: an opening tag (<code>{"<tag>"}</code>) and a closing tag (<code>{"</tag>"}</code>).</li>
+    </ul>
+    <h2>Why Learn HTML?</h2>
+    <ul>
+      <li><strong>Essential for Web Development</strong>: HTML is the backbone of every website. Without it, web browsers wouldn’t know how to display content.</li>
+      <li><strong>Easy to Learn</strong>: HTML is beginner-friendly and serves as a stepping stone to more advanced web technologies like CSS and JavaScript.</li>
+      <li><strong>Cross-Platform Compatibility</strong>: HTML works on all devices and browsers, making it universally accessible.</li>
+      <li><strong>Foundation for Other Technologies</strong>: Once you master HTML, you can easily integrate it with CSS for styling and JavaScript for interactivity.</li>
+    </ul>
+    <h2>Basic Structure of an HTML Document</h2>
+    <p>An HTML document typically consists of the following parts:</p>
+    <ol>
+      <li><strong>DOCTYPE Declaration</strong>: Specifies the version of HTML being used.</li>
+      <li><strong>HTML Element</strong>: The root element that wraps the entire content.</li>
+      <li><strong>Head Section</strong>: Contains metadata, title, and links to external resources like CSS.</li>
+      <li><strong>Body Section</strong>: Contains the visible content of the webpage, such as text, images, and links.</li>
+    </ol>
+    
+    <ChatGPTCodeBox
+                language="html"
+                code={`<!DOCTYPE html>
+        <html>
+        <head>
+        <title>Page Title</title>
+        </head>
+        <body>
+        <h1>Welcome to My Website</h1>
+        <p>This is a paragraph of text.</p>
+        </body>
+        </html>`}
+        />
 
-            <p>
-                <strong>HTML (HyperText Markup Language)</strong> is the standard language used to create and design web pages. It serves as the foundation for structuring content on the World Wide Web. Whether you're building a simple personal webpage or a complex web application, understanding HTML is essential.
-            </p>
-
-            <h2>What is HTML?</h2>
-            <ul>
-                <li><strong>HTML</strong> stands for <strong>HyperText Markup Language</strong>.</li>
-                <li>It is not a programming language but a <strong>markup language</strong>, which means it is used to structure and format content on the web.</li>
-                <li>HTML uses <strong>tags</strong> to define elements such as headings, paragraphs, images, links, and more.</li>
-                <li>These tags are enclosed in angle brackets (<code>< ></code>), and most tags come in pairs: an opening tag (<code><tag></code>) and a closing tag (<code></tag></code>).</li>
-            </ul>
-
-            <h2>Why Learn HTML?</h2>
-            <ul>
-                <li><strong>Essential for Web Development</strong>: HTML is the backbone of every website. Without it, web browsers wouldn’t know how to display content.</li>
-                <li><strong>Easy to Learn</strong>: HTML is beginner-friendly and serves as a stepping stone to more advanced web technologies like CSS and JavaScript.</li>
-                <li><strong>Cross-Platform Compatibility</strong>: HTML works on all devices and browsers, making it universally accessible.</li>
-                <li><strong>Foundation for Other Technologies</strong>: Once you master HTML, you can easily integrate it with CSS for styling and JavaScript for interactivity.</li>
-            </ul>
-
-            <h2>Basic Structure of an HTML Document</h2>
-            <p>An HTML document typically consists of the following parts:</p>
-            <ol>
-                <li><strong>DOCTYPE Declaration</strong>: Specifies the version of HTML being used.</li>
-                <li><strong>HTML Element</strong>: The root element that wraps the entire content.</li>
-                <li><strong>Head Section</strong>: Contains metadata, title, and links to external resources like CSS.</li>
-                <li><strong>Body Section</strong>: Contains the visible content of the webpage, such as text, images, and links.</li>
-            </ol>
-
-            <pre>
-{`<!DOCTYPE html>
-<html>
-<head>
-    <title>Page Title</title>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph of text.</p>
-</body>
-</html>`}
-            </pre>
-
-            <h2>Key Features of HTML5</h2>
-            <p>The latest version of HTML, <strong>HTML5</strong>, introduced several new features and improvements:</p>
-            <ul>
-                <li><strong>Semantic Elements</strong>: Tags like <code><header></code>, <code><footer></code>, <code><article></code>, and <code><section></code> make the code more readable and meaningful.</li>
-                <li><strong>Multimedia Support</strong>: Native support for audio (<code><audio></code>) and video (<code><video></code>) elements.</li>
-                <li><strong>Form Enhancements</strong>: New input types and attributes for better user experience.</li>
-                <li><strong>Offline Storage</strong>: Allows web applications to store data locally on the user's device.</li>
-            </ul>
-
-            <h2>Conclusion</h2>
-            <p>
-                HTML is the starting point for anyone interested in web development. By mastering HTML, you’ll gain the skills needed to create structured, well-organized web pages. From there, you can expand your knowledge by learning CSS for styling and JavaScript for interactivity.
-            </p>
-        </div>
+    <h2>Key Features of HTML5</h2>
+    <p>The latest version of HTML, <strong>HTML5</strong>, introduced several new features and improvements:</p>
+    <ul>
+      <li><strong>Semantic Elements</strong>: Tags like <code>{"<header>"}</code>, <code>{"<footer>"}</code>, <code>{"<article>"}</code>, and <code>{"<section>"}</code> make the code more readable and meaningful.</li>
+      <li><strong>Multimedia Support</strong>: Native support for audio (<code>{"<audio>"}</code>) and video (<code>{"<video>"}</code>) elements.</li>
+      <li><strong>Form Enhancements</strong>: New input types and attributes for better user experience.</li>
+      <li><strong>Offline Storage</strong>: Allows web applications to store data locally on the user's device.</li>
+    </ul>
+    <h2>Conclusion</h2>
+    <p>HTML is the starting point for anyone interested in web development. By mastering HTML, you’ll gain the skills needed to create structured, well-organized web pages. From there, you can expand your knowledge by learning CSS for styling and JavaScript for interactivity.</p>
+  </div>
   );
 }
 
