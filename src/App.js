@@ -57,7 +57,7 @@ function HtmlPage() {
 
 function Introduction() {
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-gray-900 text-white rounded-lg shadow-lg">
+    <div className="mx-auto p-6 text-white rounded-lg shadow-lg">
     <h1 className="text-3xl font-bold mb-4 text-center">Introduction to HTML</h1>
     <p className="mb-4 text-gray-300">
       <strong>HTML (HyperText Markup Language)</strong> is the standard language used to create and design web pages. It serves as the foundation for structuring content on the World Wide Web. Whether you're building a simple personal webpage or a complex web application, understanding HTML is essential.
@@ -84,18 +84,21 @@ function Introduction() {
       <li><strong>Head Section</strong>: Contains metadata, title, and links to external resources like CSS.</li>
       <li><strong>Body Section</strong>: Contains the visible content of the webpage, such as text, images, and links.</li>
     </ol>
-    <pre className="bg-gray-800 p-4 rounded-lg overflow-auto text-sm">
-      {`<!DOCTYPE html>
-<html>
-<head>
-  <title>Page Title</title>
-</head>
-<body>
-  <h1>Welcome to My Website</h1>
-  <p>This is a paragraph of text.</p>
-</body>
-</html>`}
-    </pre>
+    
+    <ChatGPTCodeBox
+                language="html"
+                code={`<!DOCTYPE html>
+        <html>
+        <head>
+        <title>Page Title</title>
+        </head>
+        <body>
+        <h1>Welcome to My Website</h1>
+        <p>This is a paragraph of text.</p>
+        </body>
+        </html>`}
+    />
+
     <h2 className="text-2xl font-semibold mt-6 mb-2">Key Features of HTML5</h2>
     <p className="mb-4 text-gray-300">The latest version of HTML, <strong>HTML5</strong>, introduced several new features and improvements:</p>
     <ul className="list-disc list-inside mb-4 space-y-2">
