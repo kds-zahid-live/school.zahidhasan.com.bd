@@ -87,7 +87,9 @@ function Introduction() {
     
     <ChatGPTCodeBox
                 language="html"
-                code={`<!DOCTYPE html>
+                code={`
+                  <pre>
+                  <!DOCTYPE html>
         <html>
         <head>
         <title>Page Title</title>
@@ -96,7 +98,9 @@ function Introduction() {
         <h1>Welcome to My Website</h1>
         <p>This is a paragraph of text.</p>
         </body>
-        </html>`}
+        </html>
+        </pre>
+        `}
     />
 
     <h2 className="text-2xl font-semibold mt-6 mb-2">Key Features of HTML5</h2>
