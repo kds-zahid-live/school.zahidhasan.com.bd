@@ -88,16 +88,16 @@ function Introduction() {
     <ChatGPTCodeBox
       language="html"
       code={`
-        <!DOCTYPE html>
-        <html>
-          <head>
-            <title>Page Title</title>
-          </head>
-          <body>
-            <h1>Welcome to My Website</h1>
-            <p>This is a paragraph of text.</p>
-          </body>
-        </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text.</p>
+  </body>
+</html>
         `}
       />
 
