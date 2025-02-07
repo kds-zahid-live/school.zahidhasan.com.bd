@@ -86,22 +86,19 @@ function Introduction() {
     </ol>
     
     <ChatGPTCodeBox
-                language="html"
-                code={`
-                  <pre>
-                  <!DOCTYPE html>
+      language="html"
+      code={`<!DOCTYPE html>
         <html>
-        <head>
-        <title>Page Title</title>
-        </head>
+          <head>
+            <title>Page Title</title>
+          </head>
         <body>
-        <h1>Welcome to My Website</h1>
-        <p>This is a paragraph of text.</p>
+          <h1>Welcome to My Website</h1>
+          <p>This is a paragraph of text.</p>
         </body>
         </html>
-        </pre>
         `}
-    />
+      />
 
     <h2 className="text-2xl font-semibold mt-6 mb-2">Key Features of HTML5</h2>
     <p className="mb-4 text-gray-300">The latest version of HTML, <strong>HTML5</strong>, introduced several new features and improvements:</p>
