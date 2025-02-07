@@ -87,8 +87,9 @@ function Introduction() {
             <li><strong>Body Section</strong>: Contains the visible content of the webpage, such as text, images, and links.</li>
         </ol>
 
-        <pre>
-        <!DOCTYPE html>
+        <ChatGPTCodeBox
+                language="html"
+                code={`<!DOCTYPE html>
         <html>
         <head>
         <title>Page Title</title>
@@ -97,8 +98,8 @@ function Introduction() {
         <h1>Welcome to My Website</h1>
         <p>This is a paragraph of text.</p>
         </body>
-        </html>
-        </pre>
+        </html>`}
+        />
 
         <h2>Key Features of HTML5</h2>
         <p>The latest version of HTML, <strong>HTML5</strong>, introduced several new features and improvements:</p>
