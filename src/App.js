@@ -193,11 +193,7 @@ const menuData = [
     component: <HtmlPage />,
     submenu: [
       { 
-        name: 'Introduction', path: '/html/introduction', component: <Introduction />,
-        submenu: [
-          { name: 'HTML1-1', path: '/html/html1/html1-1', component: <Html11Page /> },
-          { name: 'HTML1-2', path: '/html/html1/html1-2', component: <Html12Page /> }
-        ]
+        name: 'Introduction', path: '/html/introduction', component: <Introduction />
       },
       { 
         name: 'HTML3', path: '/html/html3', component: <div><h1>html3 main page</h1></div>,
